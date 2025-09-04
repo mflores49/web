@@ -18,16 +18,47 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
 
                 <span>Soluciones Geoespaciales MFP</span>
             </a>
 
+            <!-- Botón para menú en móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <!-- Menú -->
+
+            
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Bienvenida">Bienvenida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Curso">Curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-trabajos">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
     </nav>
+
+
+
+
 
     <header id="Hero-Section" class="text-black text-end py-5 mt-5">
         <div class="container">
@@ -47,298 +78,323 @@
         </div>
     </header>
 
-    <section id="Acerca-de-mi" class="container text-center my-5">
-    
+    <section id="Bienvenida" class="container text-center my-5">
 
-        <div class="container my-4">
-            <div class="discurso">
-                <h2 class="fw-bold text-success text-center">🗺️ Descubre el poder de los mapas web</h2><br>
-                <p>
-                    Imaginen estar en terreno revisando un proyecto y, con solo su celular y conexión a internet, poder
-                    <strong>identificar puntos críticos, zonas de riesgo, recursos hídricos e infraestructura
-                        cercana</strong>.
-                    Todo en la palma de su mano y en tiempo real.
-                </p>
-                <p>
-                    Los mapas web no son únicamente tecnología: son <strong>herramientas que transforman la forma de
-                        trabajar</strong>.
-                    Permiten planificar intervenciones ambientales con mayor precisión, coordinar proyectos urbanos con
-                    eficiencia,
-                    anticipar y gestionar riesgos, y entregar información clara a las comunidades que más la necesitan.
-                </p><br>
-               
-                <p class="text-center">
-                    🚀 Prepárense para <strong>explorar, crear y usar mapas open source que realmente marcan la
-                        diferencia en el mundo real</strong>.
-                </p>
-<br>
+        <section>
+            <div class="container my-4">
+                <div class="discurso">
+                    <h2 class="fw-bold text-success text-center">🗺️ Descubre el poder de los mapas web</h2><br>
+                    <p>
+                        Imaginen estar en terreno revisando un proyecto y, con solo su celular y conexión a internet,
+                        poder
+                        <strong>identificar puntos críticos, zonas de riesgo, recursos hídricos e infraestructura
+                            cercana</strong>.
+                        Todo en la palma de su mano y en tiempo real.
+                    </p>
+                    <p>
+                        Los mapas web no son únicamente tecnología: son <strong>herramientas que transforman la forma de
+                            trabajar</strong>.
+                        Permiten planificar intervenciones ambientales con mayor precisión, coordinar proyectos urbanos
+                        con
+                        eficiencia,
+                        anticipar y gestionar riesgos, y entregar información clara a las comunidades que más la
+                        necesitan.
+                    </p><br>
+
+                    <p class="text-center">
+                        🚀 Prepárense para <strong>explorar, crear y usar mapas open source que realmente marcan la
+                            diferencia en el mundo real</strong>.
+                    </p>
+                    <br>
+                </div>
+             
+                    <div class="row">
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">🌱 Planificación Ambiental.</h5>
+                                    <p class="card-text">
+                                        <br>- Visualiza áreas protegidas, humedales, bosques y zonas de conservación en
+                                        tiempo real.
+                                        <br>- Facilita el control y monitoreo de impactos ambientales sin depender de
+                                        informes estáticos.
+                                        <br>- Detecta la superposición de actividades productivas con zonas de resguardo
+                                        ecológico.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">👥 Gestión Socio-Territorial</h5>
+                                    <p class="card-text">
+                                        <br>- Muestra poblaciones vulnerables, asentamientos y servicios básicos en
+                                        relación
+                                        con el
+                                        territorio.
+                                        <br>- Apoya la participación ciudadana con mapas comprensibles directamente en
+                                        reuniones o terreno.
+                                        <br>- Entrega una visión clara para priorizar inversión social y proyectos
+                                        comunitarios.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">💧 Recursos Hídricos</h5>
+                                    <p class="card-text">
+                                        <br>- Identifica cuencas, ríos, napas, derechos de agua y zonas de sequía.
+                                        <br>- Cruza información de demanda de agua vs. disponibilidad real.
+                                        <br>- Facilita el seguimiento de proyectos hídricos y su impacto en el
+                                        territorio.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">🌋 Riesgos y Desastres</h5>
+                                    <p class="card-text">
+                                        <br>- Muestra zonas de inundación, volcanes, remociones en masa, incendios
+                                        forestales o sismos.
+                                        <br>- Con geolocalización, permite saber tu posición respecto a un riesgo
+                                        inmediato.
+                                        <br>- Mejora la planificación de evacuaciones y planes de emergencia en
+                                        comunidades.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">🏙️ Ordenamiento Territorial</h5>
+                                    <p class="card-text">
+                                        <br>- Visualiza zonificación, límites administrativos, planes reguladores, áreas
+                                        rurales y urbanas.
+                                        <br>- Identifica conflictos de uso del suelo (agrícola vs. urbano, industrial
+                                        vs.
+                                        conservación).
+                                        <br>- Entrega soporte técnico para definir políticas públicas y normativas
+                                        locales.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4 py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">🛠️ Infraestructura</h5>
+                                    <p class="card-text">
+                                        <br>- Facilita la localización de carreteras, puentes, redes eléctricas,
+                                        hospitales,
+                                        escuelas y proyectos
+                                        en ejecución.
+                                        <br>- Permite evaluar accesibilidad y conectividad territorial en tiempo real.
+                                        <br>- Ayuda a priorizar inversión en infraestructura crítica donde más se
+                                        necesita.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
             </div>
-            <section>
-                <div class="row">
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">🌱 Planificación Ambiental.</h5>
-                                <p class="card-text">
-                                    <br>- Visualiza áreas protegidas, humedales, bosques y zonas de conservación en
-                                    tiempo real.
-                                    <br>- Facilita el control y monitoreo de impactos ambientales sin depender de
-                                    informes estáticos.
-                                    <br>- Detecta la superposición de actividades productivas con zonas de resguardo
-                                    ecológico.
-                                </p>
+            <hr>
+            <hr>
+            <section id="Curso" class="container text-center my-5">
 
-                            </div>
-                        </div>
-                    </div>
+                <h2 class="display-5 text-black fw-bold my-4">🗺️ Curso <br> Creación de Mapas Web Interactivos con
+                    Tecnologías Open Source </h2>
+                <p class="my-4" style="text-align: justify;">
+                    👉 ¿Te gustaría transformar datos geográficos en mapas interactivos accesibles desde cualquier parte
+                    del
+                    mundo?. Este curso básico está diseñado para profesionales, estudiantes y emprendedores que buscan
+                    visualizar,
+                    analizar y compartir información espacial en línea de forma moderna, eficiente y totalmente libre de
+                    licencias privativas. <br><br>
 
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">👥 Gestión Socio-Territorial</h5>
-                                <p class="card-text">
-                                    <br>- Muestra poblaciones vulnerables, asentamientos y servicios básicos en relación
-                                    con el
-                                    territorio.
-                                    <br>- Apoya la participación ciudadana con mapas comprensibles directamente en
-                                    reuniones o terreno.
-                                    <br>- Entrega una visión clara para priorizar inversión social y proyectos
-                                    comunitarios.
-                                </p>
 
-                            </div>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">💧 Recursos Hídricos</h5>
-                                <p class="card-text">
-                                    <br>- Identifica cuencas, ríos, napas, derechos de agua y zonas de sequía.
-                                    <br>- Cruza información de demanda de agua vs. disponibilidad real.
-                                    <br>- Facilita el seguimiento de proyectos hídricos y su impacto en el territorio.
-                                </p>
+                    <strong>🎯 ¿Qué aprenderás?</strong> <br>
+                    Domina el flujo completo básico y simple de creación de mapas web con herramientas de código
+                    abierto:<br><br>
+                    ✅ QGIS: Prepara, edita y gestiona datos geoespaciales con precisión. <br>
+                    ✅ Leaflet: Diseña mapas interactivos profesionales que se adaptan a cualquier dispositivo. <br>
+                    ✅ Visual Studio Code: Personaliza y programa funcionalidades básicas con HTML, CSS y JavaScript.
+                    <br>
+                    ✅ GitHub Pages: Publica tus proyectos públicos en línea, de forma gratuita y segura.<br>
+                    <br>
 
-                            </div>
-                        </div>
-                    </div>
-                    <br><br><br>
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">🌋 Riesgos y Desastres</h5>
-                                <p class="card-text">
-                                    <br>- Muestra zonas de inundación, volcanes, remociones en masa, incendios
-                                    forestales o sismos.
-                                    <br>- Con geolocalización, permite saber tu posición respecto a un riesgo inmediato.
-                                    <br>- Mejora la planificación de evacuaciones y planes de emergencia en comunidades.
-                                </p>
 
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">🏙️ Ordenamiento Territorial</h5>
-                                <p class="card-text">
-                                    <br>- Visualiza zonificación, límites administrativos, planes reguladores, áreas
-                                    rurales y urbanas.
-                                    <br>- Identifica conflictos de uso del suelo (agrícola vs. urbano, industrial vs.
-                                    conservación).
-                                    <br>- Entrega soporte técnico para definir políticas públicas y normativas locales.
-                                </p>
 
-                            </div>
-                        </div>
-                    </div>
+                    <strong>🌐¿Por qué elegir tecnologías open source?<br></strong>
+                    <br>
 
-                    <div class="col-12 col-sm-4 py-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">🛠️ Infraestructura</h5>
-                                <p class="card-text">
-                                    <br>- Facilita la localización de carreteras, puentes, redes eléctricas, hospitales,
-                                    escuelas y proyectos
-                                    en ejecución.
-                                    <br>- Permite evaluar accesibilidad y conectividad territorial en tiempo real.
-                                    <br>- Ayuda a priorizar inversión en infraestructura crítica donde más se necesita.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <strong>💡Decisiones basadas en datos</strong> → Convierte bases de datos y archivos GIS en mapas
+                    interactivos que comunican resultados de forma clara y visual.<br>
+                    <strong>💸Reducción de costos</strong> → Aprende a utilizar herramientas gratuitas y escalables, sin
+                    depender de software privativo.<br>
+                    <strong>🔓Autonomía tecnológica</strong> → Desarrolla y publica tus propios proyectos sin
+                    intermediarios,
+                    mostrando resultados en tiempo real a clientes, colegas o ciudadanía.
+                </p>
+
+                <div class="info-curso">
+                    <h4>📌 Información del curso</h4>
+                    <ul>
+                        <li><strong>Duración total:</strong> 12 horas.</li>
+                        <li><strong>Horarios:</strong> Lunes a viernes de 20:00 a 22:00 hrs. <br>
+                            Sábado de 10:00 a 12:00 hrs.</li>
+                        <li><strong>Incluye:</strong> Asesoría personalizada y acceso a las grabaciones del curso.</li>
+                    </ul>
+                    <p>
+                        📲 Para mayor información, escríbenos en Instagram:
+                        <a href="https://www.instagram.com/soluciones_geoespacialesmfp?igsh=bnY4dzFkZjNuYzY2&utm_source=qr"
+                            target="_blank">@soluciones_geospacialesmfp</a>
+                    </p>
+                    <p>
+                        📧 También al correo: <a href="mailto:estandarsig@gmail.com">estandarsig@gmail.com</a>
+                    </p>
                 </div>
             </section>
-        </div>
-        <hr>
-        <hr>
-
-        <h2 class="display-5 text-black fw-bold my-4">🗺️ Curso <br> Creación de Mapas Web Interactivos con
-            Tecnologías Open Source </h2>
-        <p class="my-4" style="text-align: justify;">
-            👉 ¿Te gustaría transformar datos geográficos en mapas interactivos accesibles desde cualquier parte del
-            mundo? Este curso está diseñado para profesionales, estudiantes y emprendedores que buscan visualizar,
-            analizar y compartir información espacial en línea de forma moderna, eficiente y totalmente libre de
-            licencias privativas. <br><br>
-
-
-            <strong>🎯 ¿Qué aprenderás?</strong> <br>
-            Domina el flujo completo básico y simple de creación de mapas web con herramientas de código
-            abierto:<br><br>
-            ✅ QGIS: Prepara, edita y gestiona datos geoespaciales con precisión. <br>
-            ✅ Leaflet: Diseña mapas interactivos profesionales que se adaptan a cualquier dispositivo. <br>
-            ✅ Visual Studio Code: Personaliza y programa funcionalidades básicas con HTML, CSS y JavaScript. <br>
-            ✅ GitHub Pages: Publica tus proyectos públicos en línea, de forma gratuita y segura.<br>
             <br>
+            <hr>
+            <hr>
 
 
 
+            <h2 class="display-5 text-black fw-bold my-4">¿Quiénes Somos?</h2>
+            <p class="my-4" style="text-align: center;">
 
-            <strong>🌐¿Por qué elegir tecnologías open source?<br></strong>
-            <br>
+                Somos un equipo con más de 15 años de experiencia en el área de <strong>tecnología geoespacial</strong>
+                y la
+                <strong>innovación digital .</strong>
 
-            <strong>💡Decisiones basadas en datos</strong> → Convierte bases de datos y archivos GIS en mapas
-            interactivos que comunican resultados de forma clara y visual.<br>
-            <strong>💸Reducción de costos</strong> → Aprende a utilizar herramientas gratuitas y escalables, sin
-            depender de software privativo.<br>
-            <strong>🔓Autonomía tecnológica</strong> → Desarrolla y publica tus propios proyectos sin intermediarios,
-            mostrando resultados en tiempo real a clientes, colegas o ciudadanía.
-        </p>
-
-        <div class="info-curso">
-            <h4>📌 Información del curso</h4>
-            <ul>
-                <li><strong>Duración total:</strong> 12 horas.</li>
-                <li><strong>Horarios:</strong> Lunes a viernes de 20:00 a 22:00 hrs. <br>
-                    Sábado de 10:00 a 12:00 hrs.</li>
-                <li><strong>Incluye:</strong> Asesoría personalizada y acceso a las grabaciones del curso.</li>
+            <p>
+                <strong style="font-size: 22px;">Marcela Flores Ponce</strong><br>
+                Ingeniera en Geomensura (UTEM), Magíster en Gobierno y Políticas Públicas (UAH),
+                Diplomada en Seguridad Hídrica (UC Temuco) y Desarrolladora Full Stack Python,
+                Talento Digital.
+                Su trayectoria la ha llevado desde proyectos locales hasta recibir reconocimiento
+                internacional en el <em>Foro Mundial Geoespacial 2018</em> en Hyderabad, India,
+                por su trabajo en el Gobierno Regional de Los Lagos.
+            </p>
+            <br> Creemos que el poder de los <strong>mapas interactivos que integran información local, nacional y
+                mundial </strong>, son instrumentos para transformar datos en conocimiento accesible y útil para la toma
+            de decisiones.
+            </p>
+            <hr>
+            <hr><br>
+            <h3 class="display-5 text-black fw-bold ">Qué hacemos:</h3><br>
+            <ul style="list-style: none; padding-left: 0; text-align: justify;">
+                <li>🔹 Capacitación en creación de mapas web interactivos.</li>
+                <li>🔹 Desarrollo de prototipos y aplicaciones de mapas online.</li>
+                <li>🔹 Integración de datos territoriales con plataformas open source.</li><br>
             </ul>
-            <p>
-                📲 Para mayor información, escríbenos en Instagram:
-                <a href="https://www.instagram.com/soluciones_geoespacialesmfp?igsh=bnY4dzFkZjNuYzY2&utm_source=qr"
-                    target="_blank">@soluciones_geospacialesmfp</a>
+
+
             </p>
-            <p>
-                📧 También al correo: <a href="mailto:estandarsig@gmail.com">estandarsig@gmail.com</a>
+
+        </section>
+
+
+        <section id="Mis-trabajos" class="my-5 p-5 bg-success">
+
+            <h2 class="display-4 fw-bold text-center text-light mb-3">Algunos Resultados</h2>
+
+            <div class="row">
+                <div class="col-12 col-sm-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/card-1.jpg" class="card-img-top " alt="Integración OGC">
+
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">🗺️ Integración mediante estandar OGC servidores
+                                geoespaciales de
+                                servicos publicos.</h5>
+                            <p class="card-text">
+                                Ejemplo:
+                                <br>- Mapa Geológico escala 1:1000000, Sernageomin 🏞️
+                                <br>- Caletas pesqueras, IDE Subpesca⚓
+                                <br>- Limites Internacional, IDE Difrol
+                                <br>- Simbio, MMA
+                                <br>- División Política Administrativa, IDE Subdere
+                                <br>- Planos reguladores,IDE Minvu 🏗️
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/card-22.jpg" class="card-img-top" alt="Integración NASA">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">🎯 Integración en tiempo real con Sensor VIIRS y MODIS - NASA
+                            </h5>
+                            <p class="card-text">
+                                <br>- Integración de tus datos locales, con la actualización cada 12 hrs a nivel global
+                                -
+                                sensores MODIS Y VIIRS - Nasa con histórico de 7 días.🏞️
+                                <br><br><br><br><br><br>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/card-33.jpg" class="card-img-top" alt="Análisis Espacial">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">🌋 Análisis Geoespacial "Zonas de amenaza volcánica". </h5>
+                            <p class="card-text">
+                                🔴 Se observan colores como rojo, amarillo y rosado alrededor del cráter del Calbuco,
+                                que
+                                indican áreas de riesgo por
+                                flujos piroclásticos, lahares y caída de cenizas.
+                                📏 Superposición con áreas habitadas y naturales: Parte de la amenaza se extiende hacia
+                                Ensenada, Lago Chapo y sectores de Puerto Varas, además de la Reserva Nacional
+                                Llanquihue,
+                                entre otros temas.<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contacto" class="container my-5">
+            <h2 class="display-4 fw-bold text-center my-4"> 📩 Contáctanos</h2>
+            <p class="text-center ">📲 Escríbenos en Instagram: @soluciones_geospacialesmfp -
+                email 📧 estandarsig@gmail.com
             </p>
-        </div>
+        </section>
 
-        <br>
-        <hr>
-        <hr>
-        <h2 class="display-5 text-black fw-bold my-4">¿Quiénes Somos?</h2>
-        <p class="my-4" style="text-align: center;">
-
-            Somos un equipo con más de 15 años de experiencia en el área de <strong>tecnología geoespacial</strong> y la
-            <strong>innovación digital .</strong>
-
-        <p>
-            <strong style="font-size: 22px;">Marcela Flores Ponce</strong><br>
-            Ingeniera en Geomensura (UTEM), Magíster en Gobierno y Políticas Públicas (UAH),
-            Diplomada en Seguridad Hídrica (UC Temuco) y Desarrolladora Full Stack Python,
-            Talento Digital.
-            Su trayectoria la ha llevado desde proyectos locales hasta recibir reconocimiento
-            internacional en el <em>Foro Mundial Geoespacial 2018</em> en Hyderabad, India,
-            por su trabajo en el Gobierno Regional de Los Lagos.
-        </p>
-        <br> Creemos que el poder de los <strong>mapas interactivos que integran información local, nacional y
-            mundial </strong>, son instrumentos para transformar datos en conocimiento accesible y útil para la toma
-        de decisiones.
-        </p>
-        <hr>
-        <hr><br>
-        <h3 class="display-5 text-black fw-bold ">Qué hacemos:</h3><br>
-        <ul style="list-style: none; padding-left: 0; text-align: justify;">
-            <li>🔹 Capacitación en creación de mapas web interactivos.</li>
-            <li>🔹 Desarrollo de prototipos y aplicaciones de mapas online.</li>
-            <li>🔹 Integración de datos territoriales con plataformas open source.</li><br>
-        </ul>
-
-        
-        </p>
-
-    </section>
+        <footer class="bg-dark text-center text-light p-4">
+            <p class="mb-0">@Soluciones Geoespaciales MFP - 2025</p>
+        </footer>
 
 
-    <section id="Mis-trabajos" class="my-5 p-5 bg-success">
-
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Algunos Resultados</h2>
-
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <img src="assets/img/card-1.jpg" class="card-img-top " alt="Integración OGC">
-
-
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">🗺️ Integración mediante estandar OGC servidores geoespaciales de
-                            servicos publicos.</h5>
-                        <p class="card-text">
-                            Ejemplo:
-                            <br>- Mapa Geológico escala 1:1000000, Sernageomin 🏞️
-                            <br>- Caletas pesqueras, IDE Subpesca⚓
-                            <br>- Limites Internacional, IDE Difrol
-                            <br>- Simbio, MMA
-                            <br>- División Política Administrativa, IDE Subdere
-                            <br>- Planos reguladores,IDE Minvu 🏗️
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <img src="assets/img/card-22.jpg" class="card-img-top" alt="Integración NASA">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">🎯 Integración en tiempo real con Sensor VIIRS y MODIS - NASA
-                        </h5>
-                        <p class="card-text">
-                            <br>- Integración de tus datos locales, con la actualización cada 12 hrs a nivel global -
-                            sensores MODIS Y VIIRS - Nasa con histórico de 7 días.🏞️
-                            <br><br><br><br><br><br>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <img src="assets/img/card-33.jpg" class="card-img-top" alt="Análisis Espacial">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">🌋 Análisis Geoespacial "Zonas de amenaza volcánica". </h5>
-                        <p class="card-text">
-                            🔴 Se observan colores como rojo, amarillo y rosado alrededor del cráter del Calbuco, que
-                            indican áreas de riesgo por
-                            flujos piroclásticos, lahares y caída de cenizas.
-                            📏 Superposición con áreas habitadas y naturales: Parte de la amenaza se extiende hacia
-                            Ensenada, Lago Chapo y sectores de Puerto Varas, además de la Reserva Nacional Llanquihue,
-                            entre otros temas.<br><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="Contacto" class="container my-5">
-        <h2 class="display-4 fw-bold text-center my-4"> 📩 Contáctanos</h2>
-        <p class="text-center ">📲 Escríbenos en Instagram: @soluciones_geospacialesmfp -
-            email 📧 estandarsig@gmail.com
-        </p>
-    </section>
-
-    <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">@Soluciones Geoespaciales MFP - 2025</p>
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
