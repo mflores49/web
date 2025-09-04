@@ -86,3 +86,16 @@ body {
   margin-bottom: 0.5rem;
   /* espacio entre ítems */
 }
+
+
+/* Justifica los párrafos y listas dentro de la clase "discurso" y los contenidos principales */
+.discurso,
+.discurso p,
+.discurso ul,
+.discurso li {
+  text-align: justify;
+  text-justify: inter-word;
+  /* mejora la justificación */
+  line-height: 1.6;
+  /* espacio entre líneas para mejor lectura */
+}
