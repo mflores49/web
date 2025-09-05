@@ -28,7 +28,21 @@
                 }
             }
         });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.getElementById("navbarNav");
+            const navLinks = document.querySelectorAll(".nav-link");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", () => {
+                    if (navbar.classList.contains("show")) {
+                        new bootstrap.Collapse(navbar).hide();
+                    }
+                });
+            });
+        });
     </script>
+
 </head>
 
 <body>
@@ -59,10 +73,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#Curso">Curso</a>
                     </li>
-                   
+
                     <li class="nav-item">
                         <a class="nav-link" href="#Contacto">Contacto</a>
-                    </li>  
+                    </li>
                 </ul>
             </div>
         </div>
@@ -264,7 +278,7 @@
         </section>
     </section>
 
-    
+
 
 
     </div>
@@ -333,7 +347,7 @@
 
 
 
-  
+
 
 
     <section id="Mis-trabajos" class="my-5 p-5 bg-success">
